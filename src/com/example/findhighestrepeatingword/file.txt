@@ -1,0 +1,15 @@
+How to Find Highest Repeating Word from a File in Java
+Hello guys, if you are looking for a Java program to print the word and their count
+from a given file then you have come to the right place.
+Earlier, I have shared 100+ Data Structure and Algorithms Problems from
+interviews and in this article, I will show you how to find worlds and
+their count from a given file in Java. How to find the word and their
+count from a text file is another frequently asked coding question
+from Java interviews. The logic to solve this problem is similar
+to what we have seen in how to find duplicate words in a String,
+where we iterate through string and store word and their count on
+a hash table and increment them whenever we encounter the same word.
+In the first step, you need to build a word Map by reading
+the contents of a Text File. This Map should contain words
+as a key and their count as value. Once you have this Map
+ready, you can simply sort the Map based upon values.
